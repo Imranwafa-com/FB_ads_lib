@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FB Ad Scale Popup</title>
+    <!-- <script src="popup.js"></script>
+    <script src="../JS/script.js"></script> -->
+    <style>
+        body {
+            background-color: #1E1E1E;
+            color: white;
+            width: 250px;
+            height: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center; 
+            margin: 0;
+        }
+        
+        h1 {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+        
+        label {
+            display: block;
+            font-size: 14px;
+        }
+        
+        input[type="checkbox"] {
+            appearance: none;
+            -webkit-appearance: none;
+            width: 40px;
+            height: 20px;
+            background-color: #444;
+            border-radius: 10px;
+            position: relative;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        
+        input[type="checkbox"]:before {
+            content: "";
+            position: absolute;
+            top: 2px;
+            left: 2px;
+            width: 16px;
+            height: 16px;
+            background-color: #666;
+            border-radius: 50%;
+            transition: transform 0.3s, background-color 0.3s;
+        }
+        
+        input[type="checkbox"]:checked {
+            background-color: #00A0E0;
+        }
+        
+        input[type="checkbox"]:checked:before {
+            transform: translateX(20px);
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h1>FB Ad Scale Popup</h1>
+        <label for="autoOpenAds">Open Ads Lib</label>
+        <a href="https://www.facebook.com/ads/library" target="_blank" id="autoOpenAds"> open </a>
+    </center>
+</body>
+</html>
