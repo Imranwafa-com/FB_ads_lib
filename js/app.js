@@ -833,6 +833,8 @@ $(document).ready(function() {
                   <h1 class="ttext">FB Ad Scale Finder</h1>
                   <label class="ttex" for="autoOpenAds">Auto Open Ads</label>
                   <input type="checkbox" id="autoOpenAds">
+                  <label class="ttex" for="rmADS">Filter under 3</label>
+                  <input type="checkbox" id="rmADS">
               </center></div>
                   </div>`;
 
