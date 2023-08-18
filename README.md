@@ -1,5 +1,10 @@
 Repository Name: Facebook Ads Extension
-Description:
+
+Latest Update
+
+    Update the auto open function so you dont get temp banned
+      
+
 
 This browser extension opens ads with 3+ creatives in a new tab when scrolling past them in the Facebook Ads Library.
 Installation and Usage:
