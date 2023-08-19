@@ -2,7 +2,10 @@ Repository Name: Facebook Ads Extension
 
 Latest Update
 
-    Update the auto open function so you dont get temp banned
+    Improve the 3+ filter
+    add a button to open non 3+ ads
+    add another filter for non dropshiped products (in progress)
+    add stats of page likes and such (in progress)
       
 
 
